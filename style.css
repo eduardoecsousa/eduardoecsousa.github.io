@@ -2,15 +2,15 @@ body{
     background-color:#93A8AC ;
   }
   h1{
-    font-size: 20px;
+    font-size: 26px;
   }
   p{
-    font-size: 14px;
+    font-size: 20px;
     line-height: 5px;
   }
 
   .button{
-    font-size: 14px;
+    font-size: 16px;
     color: black;
     border: solid 2px black;
     background-color:#D7CEB2 ;
@@ -24,11 +24,11 @@ body{
     border-radius: 5px;
   }
   h3{
-    font-size: 16px;
+    font-size: 24px;
     text-align: center;
   }
   li{
-    font-size: 14px ;
+    font-size: 20px ;
     font-family: sans-serif;
   }
   .trybe{
@@ -45,9 +45,7 @@ body{
   }
   #easy{
     font-family: initial;
-    color: seagreen;
+    color: forestgreen;
+    font-style: italic;
   }
-  #develop{
-    color: red;
-    font-family: monospace;
-  }
+  

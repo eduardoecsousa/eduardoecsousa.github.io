@@ -7,9 +7,9 @@ body{
     font-size: 26px;
     color: white;
   }
-  p , li{
+  p,li {
     font-size: 20px;
-    line-height: 20px;
+    line-height: 23px;
     color: white;
   }
 
@@ -38,6 +38,7 @@ body{
   .button:hover {
     font-weight: 550;
     background-color: #37718E;
+    color: aqua;
     
   }
   
@@ -49,17 +50,14 @@ body{
     border: solid 2px;
     border-color: #254E70;
   }
-  h3{
-    font-size: 24px;
-    width: 103%;
-    color: white;
-  }
-  
   
  
   .skills{
     font-weight: 500;
-    
+    font-size: 24px;
+    width: 103%;
+    color: white;
+    line-height: 0.1px;
   }
 
   #container {
@@ -69,11 +67,25 @@ body{
   } 
 
 .date{
-  padding: 1px;
-  margin: 30px;
-  width: 95%;
+  
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
   text-align: center;
   background-color: #394C6D;
   border-radius: 5px;
+  overflow: hidden;
+  width: 85%;
+  list-style-position: inside;
 }
 
+li{
+  list-style: none;
+}
+
+#more{
+  color: #0C7C59;
+  font-weight: 600;
+  
+}

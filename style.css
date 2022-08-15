@@ -1,6 +1,7 @@
 body{
     background-color:black;
     font-family: helvetica;
+    padding: 3%;
 
   }
   h1{
@@ -9,7 +10,7 @@ body{
   }
   p,li {
     font-size: 20px;
-    line-height: 23px;
+    line-height: 24px;
     color: white;
   }
 
@@ -55,9 +56,9 @@ body{
   .skills{
     font-weight: 500;
     font-size: 24px;
-    width: 103%;
     color: white;
     line-height: 0.1px;
+
   }
 
   #container {
@@ -67,25 +68,34 @@ body{
   } 
 
 .date{
-  
+  text-align: center;
   margin: 10px;
   margin-left: auto;
   margin-right: auto;
-  width: 700px;
-  text-align: center;
   background-color: #394C6D;
   border-radius: 5px;
   overflow: hidden;
   width: 85%;
   list-style-position: inside;
+  position: relative;
+  
 }
 
 li{
-  list-style: none;
+  list-style: none; 
+  text-align: center;
 }
 
 #more{
   color: #0C7C59;
   font-weight: 600;
   
+}
+
+.list{
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  right: 15px;
+
 }
